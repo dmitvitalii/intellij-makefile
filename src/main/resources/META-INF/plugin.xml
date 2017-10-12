@@ -44,6 +44,8 @@ It is now possible to set up working directory for Makefile run configuration.
     <stubElementTypeHolder class="name.kropp.intellij.makefile.psi.MakefileTypes" />
     <stubIndex implementation="name.kropp.intellij.makefile.MakefileTargetIndex" />
 
+    <toolWindow id="make" anchor="right" factoryClass="name.kropp.intellij.makefile.MakeToolWindowFactory"/>
+
     <internalFileTemplate name="Makefile" />
   </extensions>
 
